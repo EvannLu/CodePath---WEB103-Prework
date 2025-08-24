@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='Creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  👉🏿 MacOS bulit-in screen recorder + ezgif.com (video to gif converter)
 
