@@ -42,10 +42,10 @@ GIF created with ...  👉🏿 MacOS bulit-in screen recorder + ezgif.com (video
 
 ## Notes
 
-* Text Readability on Cards: Ensuring text remained legible on top of dynamic background images required adding a dark gradient overlay.
-* Asynchronous Data Handling: Managing component rendering while waiting for data to be fetched from Supabase necessitated the use of loading states and conditional rendering to prevent errors.
-* Supabase Configuration: Initial connection issues were often traced back to easily missed settings, like leaving Row Level Security (RLS) enabled, which blocked data requests.
-* State Management: Keeping the UI in sync with the database a
+* **Text Readability on Cards:** Ensuring text remained legible on top of dynamic background images required adding a dark gradient overlay.
+* **Asynchronous Data Handling:** Managing component rendering while waiting for data to be fetched from Supabase necessitated the use of loading states and conditional rendering to prevent errors.
+* **Supabase Configuration:** Initial connection issues were often traced back to easily missed settings, like leaving Row Level Security (RLS) enabled, which blocked data requests.
+* **State Management:** Keeping the UI in sync with the database after a user creates, updates, or deletes a creator required careful handling of state and navigation.
 
 ## License
 
