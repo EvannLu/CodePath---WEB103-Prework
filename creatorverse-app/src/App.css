@@ -1,0 +1,49 @@
+/* --- Import Google Font --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* --- Custom Color Scheme & Variables --- */
+:root {
+  --background-color: #1a1a1a;
+  --card-background: #242424;
+  --primary-text: #ffffff;
+  --secondary-text: #aaaaaa;
+  --accent-color: #646cff;
+  --border-color: #444444;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+/* --- Base Styles --- */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-text);
+}
+
+/* --- App Header & Navigation --- */
+.App header nav {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.App header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--primary-text);
+}
+
+/* --- Main Grid Layout for Cards --- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* --- Form Styling --- */
+form {
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
